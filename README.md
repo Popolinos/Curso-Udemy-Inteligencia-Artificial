@@ -25,7 +25,7 @@ Foi desenvolvida uma função `padronizar_dataset` que realiza as seguintes tran
 *   **Binning de Variáveis Categóricas**: Categorias raras ou ambíguas em `workclass`, `marital-status`, `occupation`, `native-country`, `race` e `education` são agrupadas em categorias mais amplas (ex: 'Other', 'Basic_School', 'Upper_School').
 *   **Categorização de Horas de Trabalho**: A coluna `hours-per-week` é discretizada em categorias ('<40', '40', '>40').
 *   **Padronização de Colunas Numéricas**: `MinMaxScaler` é aplicado para normalizar as colunas numéricas.
-*   **Codificação de Variáveis Categóricas**: `LabelEncoder` é usado para colunas como `workclass`, `education`, `marital-status`. `OneHotEncoder` é aplicado a `native-country` e `race`.
+*   **Codificação de Variáveis Categóricas**: `LabelEncoder` é usado para colunas como workclass, education, marital-status. `OneHotEncoder` é aplicado a native-country e race.
 
 ### Tratamento de Outliers e Balanceamento de Classes
 
